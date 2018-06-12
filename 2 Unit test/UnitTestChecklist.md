@@ -1,5 +1,5 @@
 # Unit Test Checklist
-## What to test
+## What cases to test
 * Valid cases
   * Normal cases
   * Boundary cases
@@ -9,7 +9,7 @@
   * Min, Max cases
   * Invalid type cases
 
-## Fields
+## What elements (fields) to test
 
 * Number
 * Text
@@ -17,7 +17,7 @@
 * Password
 * Validation
 * Upload/Download
-
+---
 ## Number
 * Boundary
 * DB boundary
@@ -81,7 +81,7 @@
 * Screen compatibility (800x600, 1024x768, Mobile, Tablet, browser minimize, maximize)
 * Button, menu, resolution, layout, table, fonts displays correctly
 * Messages are correct and correctly showed
-
+---
 ## Common Questions
 
 * Mouse double click protection

@@ -1,5 +1,6 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * ItemService - GetItemByIdTest() - Test
@@ -8,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  * @version 1.0
  * @since 1.0
  */
-public class GetItemByIdTest {
+public class GetItemByIdTest extends UnitTestBase {                         // Unit Test Base class contains necessary files
 
     /*
         method : getItemById(int)

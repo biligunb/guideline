@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
  * @version 1.0
  * @since 1.0
  */
-public class GetItemByUserIdTest {
+public class GetItemByUserIdTest extends UnitTestBase {                 // Unit Test Base class contains necessary files
 
     /**
      * Test - getItemByUserId - userIdExist - item

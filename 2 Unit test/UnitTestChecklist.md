@@ -1,5 +1,12 @@
 # Unit Test Checklist
-See! Easy: [Go to Real Cool Heading section](#real-cool-heading)      
+Summary : 
+- [Go to 'Which parts to test' section](#which-parts-to-test)  
+- [Go to 'Which cases to test' section](#which-cases-to-test)  
+- [Go to 'Which elements to test' section](#which-elements-to-test)  
+- [Go to 'Other' section](#other)  
+- [Go to 'FAQ' section](#frequently-asked-questions)  
+
+---
 
 # Which parts to test
 * Front end
@@ -16,15 +23,15 @@ See! Easy: [Go to Real Cool Heading section](#real-cool-heading)
   * Min, Max cases
   * Invalid type cases
 
-## Which elements (fields) to test
+## Which elements to test
 * Number
 * Text
 * Text Area
 * Password
 * Validation
-* Upload/Download
+* File Upload/Download
 * List
-* Alert/Confirm
+* Alert/Confirm/Toast
 
 ---
 
@@ -85,15 +92,26 @@ See! Easy: [Go to Real Cool Heading section](#real-cool-heading)
 * Alert or confirm shows active tab
 * Click on back button when appears alert or confirm check it appears again or not
 
+---
+
+# Other
+
 ## Design
 * OS compatibility
 * Browser compatibility
 * Screen compatibility (800x600, 1024x768, Mobile, Tablet, browser minimize, maximize)
 * Button, menu, resolution, layout, table, fonts displays correctly
 * Messages are correct and correctly showed
----
-## Common Questions
 
+## User Role
+* Admin/Basic user swapping each other by login/logout and check view of the web
+* Check protect privacy correctly
+* Session and cookies expires?
+* Request, page, session, application scope
+
+---
+
+# Frequently asked questions
 * Mouse double click protection
 * Is mouse over tooltip correct?
 * Short cut works correctly?
@@ -103,13 +121,4 @@ See! Easy: [Go to Real Cool Heading section](#real-cool-heading)
 * Back button and forward button
 * Related windows show correctly
 * Is an error/info message correct?
-
-## User Role
-* Admin/Basic user swapping each other by login/logout and check view of the web
-* Check protect privacy correctly
-* Session and cookies expires?
-* Request, page, session, application scope
-
-# Real Cool Heading  
-This is a real cool heading with some real cool content.
 

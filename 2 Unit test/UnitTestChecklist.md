@@ -1,5 +1,11 @@
 # Unit Test Checklist
-## What cases to test
+[create an anchor](#Design)
+## Which parts to test
+* Front end
+* Back end
+* Database
+
+## Which cases to test
 * Valid cases
   * Normal cases
   * Boundary cases
@@ -9,15 +15,18 @@
   * Min, Max cases
   * Invalid type cases
 
-## What elements (fields) to test
-
+## Which elements (fields) to test
 * Number
 * Text
 * Text Area
 * Password
 * Validation
 * Upload/Download
+* List
+* Alert/Confirm
+
 ---
+
 ## Number
 * Boundary
 * DB boundary

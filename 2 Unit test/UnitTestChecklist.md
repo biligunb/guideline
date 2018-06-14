@@ -24,14 +24,14 @@ Summary :
   * Invalid type cases
 
 ## Which elements to test
-* Number
-* Text
-* Text Area
-* Password
-* Validation
-* File Upload/Download
-* List
-* Alert/Confirm/Toast
+* Number               - [Go to section](#number)  
+* Text                 - [Go to section](#text)  
+* Text Area            - [Go to section](#text-area)  
+* Password             - [Go to section](#password)  
+* Validation           - [Go to section](#validation)  
+* File Upload/Download - [Go to section](#file-upload-download)  
+* List                 - [Go to section](#list)  
+* Alert/Confirm/Toast  - [Go to section](#alert-confirm-toast)  
 
 ---
 
@@ -67,7 +67,7 @@ Summary :
 * Mail, Domain, Type (string, number, telephone number, zip code etc)
 * Only for user id, email case insensitive
 
-## File Upload
+## File Upload Download
 ### Type
 * Single Request (all in one) -> safe
 * Multiple Request (request per field) -> unsafe
@@ -88,7 +88,7 @@ Summary :
 * DB does not exist (table is deleted)
 * Create mass data and check pagination, create concurrency case may cause dead lock
 
-## Alert, Confirm
+## Alert Confirm Toast
 * Alert or confirm shows active tab
 * Click on back button when appears alert or confirm check it appears again or not
 
@@ -121,4 +121,3 @@ Summary :
 * Back button and forward button
 * Related windows show correctly
 * Is an error/info message correct?
-

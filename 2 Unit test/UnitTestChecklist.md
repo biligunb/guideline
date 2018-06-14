@@ -1,6 +1,7 @@
 # Unit Test Checklist
-[create an anchor](#Design)
-## Which parts to test
+See! Easy: [Go to Real Cool Heading section](#real-cool-heading)      
+
+# Which parts to test
 * Front end
 * Back end
 * Database
@@ -108,3 +109,7 @@
 * Check protect privacy correctly
 * Session and cookies expires?
 * Request, page, session, application scope
+
+# Real Cool Heading  
+This is a real cool heading with some real cool content.
+

@@ -6,3 +6,4 @@ Guidelines for Coding, Testing, Automation etc...
 3. Integration test
 4. Security test
 5. Test automation
+6. Technologies research

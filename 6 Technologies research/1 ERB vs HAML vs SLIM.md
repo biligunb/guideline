@@ -1,31 +1,36 @@
 # Brief information on ERB vs HAML vs SLIM (+HAMLIT)
 
-1. ERB - Embedded Ruby
-  - Out of box
-  - No need to learn new HTML syntax
-  - Best performance?
+### 1. ERB - Embedded Ruby
+#### Pro:
+    - Out of box
+    - No need to learn new HTML syntax
+    - Best performance?
 
-  - Verbose
+#### Con:
+    - Verbose
 
-2. HAML - HTML abstraction markup language
-  - Easy to learn
-  - Efficient (no closing tags)
-  - Clean syntax
+### 2. HAML - HTML abstraction markup language
+#### Pro:
+    - Easy to learn
+    - Efficient (no closing tags)
+    - Clean syntax
 
-  - Bad performance
-  - Whitespace sensitivity
+#### Con:
+    - Bad performance
+    - Whitespace sensitivity
 
-3. HAMLIT - High Performance Haml Implementation
-  - Hamlit which is faster than Haml but doesn't support a few things you can easily work around (but might find annoying to have to refactor on an existing project)
+### 3. HAMLIT - High Performance Haml Implementation
+   - Hamlit which is faster than Haml but doesn't support a few things you can easily work around (but might find annoying to have to refactor on an existing project)
 
-4. SLIM - Slim Template Language
-  - Clean readable FLEXIBLE syntax
-  - Faster than HAML
-  - Open Source
-  - Supports HTTP streaming
-  - Well organized documentation
+### 4. SLIM - Slim Template Language
+#### Pro:
+    - Clean readable FLEXIBLE syntax
+    - Faster than HAML
+    - Open Source
+    - Supports HTTP streaming
+    - Well organized documentation
 
-Github
+## Github
  - Open issues
  - PR
  - Stars
